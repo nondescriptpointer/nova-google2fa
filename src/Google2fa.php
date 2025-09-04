@@ -22,7 +22,7 @@ class Google2fa extends Tool
     {
     }
 
-    public function menu(Request $request): array
+    public function menu(Illuminate\Http\Request $request): array
     {
         return [];
     }
