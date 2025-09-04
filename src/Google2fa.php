@@ -9,7 +9,7 @@ use BaconQrCode\Writer;
 use Laravel\Nova\Tool;
 use PragmaRX\Google2FA\Google2FA as G2fa;
 use PragmaRX\Recovery\Recovery;
-use Request;
+use Illuminate\Http\Request;
 
 class Google2fa extends Tool
 {
@@ -22,7 +22,7 @@ class Google2fa extends Tool
     {
     }
 
-    public function menu(Illuminate\Http\Request $request): array
+    public function menu(Request $request): array
     {
         return [];
     }
