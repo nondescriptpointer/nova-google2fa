@@ -22,6 +22,11 @@ class Google2fa extends Tool
     {
     }
 
+    public function menu(Request $request): array
+    {
+        return [];
+    }
+
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      * @throws \PragmaRX\Google2FA\Exceptions\InsecureCallException
